@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorG4"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:text="Eliga los burros a comprar:"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionados:"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:id="@+id/txv_dia_cant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="60sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/dia_menos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:layout_marginHorizontal="60dp"/>
+
+            <TextView
+                android:id="@+id/dia_mas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="+"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:layout_marginHorizontal="60dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_dia_acep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aceptar"
+            android:textSize="24sp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

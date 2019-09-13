@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/relleno"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_prof"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_android"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/txv_prof_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_below="@id/img_prof"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txv_prof_nick"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginHorizontal="20dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:padding="10dp">
+
+           <TextView
+               android:id="@+id/txv_prof_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="32dp"
+               android:drawableLeft="@drawable/ic_person"
+               android:text="Nombre real"
+               android:textSize="20sp" />
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:background="@android:color/black"
+               android:layout_marginVertical="5dp"
+               android:layout_marginHorizontal="30dp"/>
+
+           <TextView
+               android:id="@+id/txv_prof_email"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="32dp"
+               android:drawableLeft="@drawable/ic_mail"
+               android:text="correo@correo.com"
+               android:textSize="20sp" />
+       </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

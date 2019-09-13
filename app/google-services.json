@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "534150844751",
+    "firebase_url": "https://burritos-1ce05.firebaseio.com",
+    "project_id": "burritos-1ce05",
+    "storage_bucket": "burritos-1ce05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534150844751:android:3ad25d1f8f2e97b8",
+        "android_client_info": {
+          "package_name": "com.sorezel.burritos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534150844751-7o528u4rho12bb7d6v2ubh0j6bk0lock.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sorezel.burritos",
+            "certificate_hash": "f674a53d76bfd6b81e699a466be6ba8c04261e0a"
+          }
+        },
+        {
+          "client_id": "534150844751-b3bvpcguoe410fler9fu14t05varmj9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYPmda5SgmhXs7GuWH-lgGBOy8U9Bp2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534150844751-b3bvpcguoe410fler9fu14t05varmj9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

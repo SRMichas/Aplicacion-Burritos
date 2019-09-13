@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorG1</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--#008577-->
+
+    <!--Generic Gradient-->
+    <color name="colorG1">#ffdd19</color>
+    <color name="colorG2">#92ce47</color>
+    <color name="colorG3">#24b371</color>
+    <color name="colorG4">#009186</color>
+    <color name="colorG5">#006c7c</color>
+    <color name="colorG6">#2f4858</color>
+    <color name="colorG7">#F5AF0D</color>
+    <!--Matching Gradient-->
+    <color name="colorM2">#b5cf0a</color>
+    <color name="colorM3">#69bd24</color>
+    <color name="colorM4">#00a73c</color>
+    <color name="colorM5">#008f4f</color>
+    <color name="colorM6">#00765e</color>
+</resources>
